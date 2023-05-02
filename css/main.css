@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  margin: 0;
+  font-family: 'Barlow';
+}
+
+.font2 {
+  font-family: 'Fraunces', serif;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main_header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 43px;
+  margin-bottom: 43px;
+}
+
+.main_header__list {
+  display: flex;
+  align-items: center;
+}
+
+.main_header__item {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: #83888F;
+  margin-left: 33px;
+}
+
+/* hero */
+
+.hero__container {
+  margin-bottom: 168px;
+}
+
+.hero__block {
+  background-repeat: no-repeat;
+  background-image: url(../img/hero.png);
+  height: 450px;
+}
+
+.hero__content {
+  padding: 137px 750px 137px 85px;
+}
+
+.hero__title {
+  max-width: 168px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+
+.hero__text {
+  max-width: 445px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+/* commitment */
+.commitment__container {
+  max-width: 1110px;
+  margin-bottom: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.commitment__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 32px;
+}
+
+.commitment__text {
+  max-width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+/* quality */
+.quality__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2C343E;
+}
+.quality__content{
+margin-right: 85px;
+margin: 0 auto;
+}
+
+.quality__title{
+  font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+margin-bottom: 32px;
+}
+.quality__text{
+  max-width: 540px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.quality__img_block{
+  margin-top: -80px;
+  margin-right: 75px;
+}
